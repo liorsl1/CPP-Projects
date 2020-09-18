@@ -15,7 +15,7 @@ public:
 	StringKey(const StringKey& key);
 	~StringKey();
 	StringKey* Read();
-	// theta(n) - where n is the length of the string.
+	// theta(n) - while n is the length of the string.
 	int Compare(StringKey* sKey);
 	void toString();
 };
